@@ -1,0 +1,21 @@
+# MediTriage — Dependencies
+# =========================
+# Install: pip install -r requirements.txt
+
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LLM Providers
+anthropic>=0.25.0
+
+# API Server
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Utilities
+rich>=13.0.0
